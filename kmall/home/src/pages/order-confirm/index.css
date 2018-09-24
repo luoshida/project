@@ -1,0 +1,192 @@
+
+/*送货地址*/
+.shopping-box{
+	margin-top: 30px;
+	background-color: #fff;
+	padding: 30px 30px;
+}
+.shopping-box .panel-header{
+	height: 30px;
+	line-height: 30px;
+}
+.shopping-box .panel-body .shopping-item{
+	width: 300px;
+	height: 170px;
+	margin-right: 20px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 3px dashed #aaa;
+	cursor:pointer;
+	margin-bottom: 20px;
+}
+.shopping-box .panel-body .shopping-item:hover .shopping-footer{
+	display: block;
+}
+.shopping-box .panel-body .shopping-item.active{
+	border-color: red;
+}
+.shopping-box .panel-body .shopping-item .shopping-title{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.shopping-box .panel-body .shopping-item .shopping-detail{
+	height: 60px;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 20px;
+}
+.shopping-box .panel-body .shopping-item .shopping-footer{
+	text-align: right;
+}
+.shopping-box .panel-body .shopping-add{
+	width: 300px;
+	font-size: 50px;
+	color: #eee;
+	padding: 10px 10px;
+	border: 3px dashed #aaa;
+	text-align: center;
+	cursor:pointer;
+}
+
+
+
+/*购物车列表*/
+.product-box .cart-list{
+	padding: 20px 30px;
+	border-top: 1px solid #ccc;
+	background-color: #fff;
+}
+.product-box .cart-head{
+	background-color: #eee;
+	color: #000;
+	padding: 15px 20px;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+}
+.product-box .cart-content{
+	height: 120px; 
+	line-height: 90px;
+	background-color: #eee;
+	padding: 15px 20px;
+	font-size: 16px;
+	border-bottom: 1px solid #bbb;
+}
+.product-box .cart .product{
+	width: 70%;
+}
+.product-box .cart .product .name{
+	display: inline-block;
+	height: 60px;
+	line-height: 30px;
+	width: 300px;
+	overflow: hidden;
+	vertical-align:middle;
+}
+.product-box .cart .product img{
+	width: 80px;
+	height: 100px;
+	
+}
+.product-box .cart .price{
+	width: 10%
+}
+.product-box .cart .number{
+	width: 10%
+}
+.product-box .cart .allPrice{
+	width: 10%
+}
+.product-box .cart-foot{
+	background-color: #bbb;
+	color: #000;
+	padding: 15px 20px;
+	font-size: 16px;
+}
+.product-box .cart .submit-btn{
+	background-color: red;
+	margin-left: 30px;
+}
+.product-box .cart .cart-foot li{
+	float: right;
+}
+.product-box .cart .cart-foot .price{
+	color: red;
+	font-size: 25px;
+}
+
+/*添加地址蒙版*/
+.order-confirm .add-address{
+	position: fixed;
+	top: 0;left: 0;right: 0;bottom:0;
+	background-color: rgba(0,0,0,0.6); 
+}
+.order-confirm .add-address .add-address-container{
+	width: 500px;
+	height: 600px;
+	padding: 300px;
+	margin: 30px auto;
+	background-color: #fff;
+	padding: 20px 20px;
+	position: relative;
+}
+.add-address .model-header .close{
+	font-size: 18px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+.add-address .model-header .close:hover{
+	font-size: 20px;
+}
+.model-body{
+	width: 400px;
+	margin: 0px auto;
+	background-color: #fff;
+	padding: 30px 20px;
+}
+.model-body .form-item{
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.model-body .head .err{
+	color: red;
+	font-size: 20px;
+	display: none;
+}
+.model-body .form-item input{
+	height: 40px;
+	width: 333px;
+	padding-left: 5px;
+	border: none;
+	outline: none;
+}
+.form-item i{
+	width: 20px;
+	height: 48px;
+	line-height: 50px;
+	vertical-align: top;
+	text-align: center;
+	background-color: #ddd;
+}
+.model-body .model-load-btn{
+	width: 100%;
+	height: 50px;
+	background-color: #2b99ff;
+	color: white;
+	border: none;
+	font-size: 25px;
+	border-radius: 5px;
+}
+.model-body .model-load-btn:hover{
+	opacity: 0.8;
+}
+.model-body .form-item.city-item select{
+	width: 100px;
+	height: 25px;
+	margin-right: 20px;
+}

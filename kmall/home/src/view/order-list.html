@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%= require('html-loader!./common/head.html') %>
+	<meta charset="UTF-8">
+	<title><%= htmlWebpackPlugin.options.title %> -KMALL电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./common/nav.html') %>
+
+	<div class="user-center">
+		<div class="container ">
+			<div class="crumb">
+				<a href="/">首页</a>
+				&gt;
+				<%= htmlWebpackPlugin.options.title %>
+			
+			</div>
+		</div>
+		<div class="container clearfix">
+			<%= require('html-loader!./common/side.html') %>
+			<div class="content fl">
+				<div class="order-list">
+				</div>
+				<div class="pagination-box"></div>
+			</div>
+			
+		</div>
+	</div>
+	
+
+	<%= require('html-loader!./common/foot.html') %>
+</body>
+</html>

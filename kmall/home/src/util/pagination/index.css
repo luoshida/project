@@ -1,0 +1,24 @@
+.pagination-box{
+	text-align: center;
+}
+.pagination{
+	display: inline-block;
+}
+.pagination .page-item{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #999;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #000;
+}
+.pagination .page-item:hover{
+	box-shadow: 0 0 3px;
+}
+.pagination .page-item.active{
+	background-color: #2b99ff;
+}
+.pagination .page-item.disable{
+	opacity: 0.3;
+}

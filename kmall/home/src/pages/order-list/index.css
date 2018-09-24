@@ -1,0 +1,76 @@
+
+.order-list .list-header{
+	font-family: "楷体";
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+.order-list .order{
+	border:1px dashed blue ;
+	font-family: "汉仪雅酷黑";
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.order-list .order-message{
+	width: 100%;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.order-list .order-message .orderNo{
+	width: 25%
+}
+.order-list .order-message .payment{
+	width: 17%
+}
+.order-list .order-message .order-detail{
+	color: blue;
+}
+.order-list .order-message .order-detail:hover{
+	color: red;
+}
+.order-list .order-product-header{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.order-list .order-product-header li{
+	width: 19%;
+}
+
+.order-list .order-product-header li:last-child{
+	width: 5%;
+}
+.order-list .order-product{
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.order-list .order-product img{
+	width: 60px;
+	height: 80px;
+}
+.order-list .order-product li{
+	width: 19%;
+}
+.order-list .order-product .name{
+	margin-top: 20px;
+	overflow: hidden;
+	height: 60px;
+	line-height: 30px;
+}
+.order-list .order-product-footer{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.order-list .order-product-footer .payment{
+	width: 54px;
+	color: red;
+	font-weight: bold;
+}
+.order-list .order-address{
+	padding-top: 10px;
+}
+

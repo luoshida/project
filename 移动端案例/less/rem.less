@@ -1,0 +1,249 @@
+// body{
+// 	overflow: hidden;
+// }
+@rem:32;
+.rem(@attr,@px1){
+	@{attr}:unit(@px1/@rem,rem);
+}
+.rem(@attr,@px1,@px2){
+	@{attr}:unit(@px1/@rem,rem) unit(@px2/@rem,rem);
+}
+.border-bottom{
+	border-bottom:1px solid #ccc;
+}
+.header{
+	.rem(height,45);
+	.rem(line-height,45);
+	.rem(font-size,20);
+	.border-bottom;
+	.header-back{
+		.rem(width,45);
+		text-align: center;
+	}
+	.header-name{
+		.rem(width,210);
+		display: inline-block;
+		text-align: center;
+	}
+}
+.header-adr{
+	.rem(height,45);
+	.rem(line-height,45);
+	.rem(font-size,16);
+	.rem(padding,0,10);
+	color:#878787;
+	.border-bottom;
+	.edit{
+		float: right;
+		color:red;
+	}
+
+}
+.username{
+	.rem(height,45);
+	.rem(line-height,45);
+	.rem(font-size,16);
+	.rem(padding,0,10);
+	.border-bottom;
+	.username-sx{
+		.rem(margin,0,10);
+		color:#878787;
+		font-weight: bold;
+	}
+	.username-icon{
+		color:red;
+	}
+	.username-zt{
+		color:#000;
+		font-weight: bold;
+	}
+}
+.alldesc{
+	.rem(height,45);
+	.rem(line-height,45);
+	.rem(font-size,14);
+	.rem(padding,0,10);
+	color:#878787;
+	.border-bottom;
+}
+.shopcart{
+	.rem(padding,10,10);
+	.rem(height,150);
+	.border-bottom;
+	box-sizing: border-box;
+	.select{
+		float: left;
+		span{
+			.rem(margin-top,30);
+			display: inline-block;
+			.rem(width,15);
+			.rem(height,15);
+			border: 2px solid #878787;
+			border-radius: 50%;
+		}
+	}
+	.shops{
+		float: left;
+		.rem(width,270);
+		img{
+			float: left;
+		}
+
+		.shopdesc{
+			span{
+			.rem(margin-bottom,5);
+			}
+			float: right;
+			.rem(width,170);
+			.shopdesc-name{
+				.rem(font-size,16);
+				font-weight: bold;
+				display: block;
+			}
+			.shopdesc-weght{
+				.rem(font-size,16);
+				color:#878787;
+				display: block;
+			}
+			.shopdesc-price{
+				.rem(font-size,14);
+				color:red;
+				.rem(margin-right,30);
+				position: relative;
+				.rem(top,-15);
+			}
+			.shopdesc-up,
+			.shopdesc-num,
+			.shopdesc-down{
+				display: inline-block;
+				.rem(height,25);
+				.rem(font-size,16);
+				.rem(line-height,25);
+				.rem(width,25);
+				background:#edebeb;
+				text-align: center;
+				position: relative;
+				.rem(top,-15);
+			}
+			.shopdesc-watch{
+				.rem(font-size,14);
+				float: right;
+				color:#878787;
+				position: relative;
+				.rem(top,-10);
+
+			}
+			.affirm-del{
+				position: absolute;
+				top: 0;
+				left: 0;
+				// .rem(height,568);
+				// .rem(width,320);
+				height: 100%;
+				width: 100%;
+				z-index: 2;
+				background: rgba(0,0,0,0.5);
+				.affirm-des{
+					position: absolute;
+					top:50%;
+					left: 50%;
+					.rem(font-size,14);
+					.rem(border-radius,10);
+					.rem(height,150);
+					.rem(width,250);
+					.rem(margin-left,-125);
+					.rem(margin-top,-75);
+					.rem(padding,0,60);
+					box-sizing: border-box;
+					background:#fff;
+					text-align: center;
+					p{
+						.rem(margin,40,0);
+						font-weight: 800;
+					}
+					.affirm{
+						float: left;
+					}
+					.del{
+						float: right;
+						color:red;
+					}
+				}
+			}
+			.shopdesc-del{
+				.rem(font-size,14);
+				float: right;
+				color:#878787;
+				.rem(margin-left,5);
+				position: relative;
+				.rem(top,-10);
+			}
+		}
+
+	}
+}
+.close{
+	background: #fff;
+	border: 1px solid #ccc;
+	position: fixed;
+	.rem(bottom,0);
+	.rem(width,320);
+	.rem(height,45);
+	.rem(line-height,45);
+	.rem(font-size,14);
+	.rem(padding-left,10);
+	.goto{
+		display: inline-block;
+		float: right;
+		.rem(width,110);
+		.rem(height,45);
+		.rem(line-height,45);
+		background: red;
+		text-align: center;
+
+	}
+	.close-select{
+		text-align: center;
+		float: left;
+		box-sizing: border-box;
+		.rem(margin-right,5);
+		.rem(padding,5,0);
+		.rem(width,40);
+		.close-icon{
+			display: block;
+			.rem(font-size,16);
+			.rem(margin-top,2);
+			color:red;
+		}
+		span{
+			color:#878787;
+			position: relative;
+			.rem(top,-12);
+		}
+		
+	}
+	.allprice{
+			float: left;
+			.rem(width,160);
+			.rem(line-height,22);
+			.zongji{
+				.rem(font-size,16);
+				color:#000;
+				.rem(margin-right,10);
+				font-weight: bold;
+			} 
+			.jine{
+				color:red;
+				.rem(font-size,16);
+				font-weight: bold;
+			}
+			.lijian{
+				display: block;
+				color:#878787;
+			}
+		}
+}
+
+
+
+

@@ -1,0 +1,533 @@
+/*
+* @Author: zhang
+* @Date:   2018-04-09  19:03
+* @Last Modified by:   zhang
+* @Last Modified time: 2018-04-10 16:27:15
+*/
+/*Index common*/
+   *{
+			margin: 0;
+			padding: 0;
+		}
+
+	
+/*Top*/
+		.top{
+			height: 150px;
+			width: 100%;
+			background: #1a1a1a;
+		}
+		.top .logo{
+			height: 60px;
+			width: 80px;
+            float: left;
+			
+			margin-top: 40px;
+		}
+	    .top .container{
+            height: 100px;
+            width: 80%;
+            
+            margin-left: 10%;
+	    }
+
+	    .top .container .nav2{
+	    	height: 50px;
+	    	width: 65%;
+        
+            float: left;
+            margin-left: 100px;
+            margin-top: 40px;
+	    }
+	     .top .container .nav2 li{
+            display: inline-block;
+            float: left;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 40px;
+	     }
+	      .top .container .nav2 li a{
+             font-size: 14px;
+	      	 text-decoration: none;
+	      	 text-align: center;
+	      	 color: rgba(255,255,255,0.6);
+	      }
+          .top .container .nav2 li:nth-child(3) a{
+            color: rgba(255,255,255,0.9);
+          }
+          .top .container .nav2 li a:hover{
+            color: rgba(255,255,255,0.9);
+          }
+	      .top .container .nav3{
+	      	height: 60px;
+	      	width: 150px;
+	      	float: right;
+	      	margin-top: 40px;
+	      }
+	       .top .container .gouwu{
+	       	width: 320px;
+            position: relative;
+            display: none;
+	       }
+	      .top .container .gouwu img{
+            color: red;
+	      	height: 320px;
+	      	position: absolute;
+	      	top: 0px;
+	      	right: 230px;
+	      	z-index: 9999;
+	      }
+	/*header*/
+		.header{
+			height: 958px;
+			width: 100%;
+			position: relative;
+		}
+		.header .box1{
+			height: 958px;
+			width: 100%;
+            position: absolute;
+            top: 37px;
+		}
+		.header .box1 img{
+			height: 958px;
+			width: 100%;
+		}
+        #baide{
+            display: none;
+        }
+        .box1 .Sx{
+            height: 50px;
+            width: 200px;
+            position: absolute;
+            top: 112px;
+            left: 675px;
+            z-index: 999;
+        }
+        .box1 .Sx h2{
+            height: 20px;
+            width: 92px; 
+            float: left;
+            margin-bottom: 20px;
+            margin-left: 25px;
+            font-size: 12px;
+            color: rgba(255,255,255,0);
+            cursor: pointer;
+        }
+        .box1 .Sx h4{
+            height: 20px;
+            width: 40px;
+            float: right;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            font-size: 12px;
+            color: rgba(255,255,255,0);
+            cursor: pointer;
+        }
+
+		.header .gaiyao{
+			height: 37px;
+			width: 100%;
+			color: #666;
+			margin: 0 auto;
+			position: absolute;
+			text-decoration: none;
+			float: left;
+			margin-left: 9%;
+			position: relative;
+		    list-style: none;
+		}
+		.header .gaiyao .zuo li{
+			height: 20px;
+			float: left;
+			margin-top: 10px;
+			margin-left: 10px;
+			list-style: none;
+		}
+		.header .gaiyao  li a{
+			display: inline-block;
+			text-decoration: none;
+			list-style: none;
+			font-size: 14px;
+			float: left;
+			margin-left: 30px;
+			color: rgba(255,255,255,0.3);
+		}
+		.header .gaiyao .zuo li .Gl{
+			color: #bdbdbd;
+		}
+		.header .gaiyao .zuo li a:hover{
+			color: #bdbdbd;
+		}
+		.header .gaiyao .you{
+			float: right;
+			position: relative;
+			right: 350px;
+			list-style: none;
+		}
+		.header .gaiyao .you li{
+			height: 30px;
+			float: right;
+			margin-right: 10px;
+			margin-top: 10px;
+		}
+		.header .gaiyao .you .Kz{
+			width: 97px;
+			height: 29px;
+			background: rgb(37,75,160);
+			margin-top: 4px;
+			text-align: center;
+			border-radius: 4%;
+		}
+		.header .gaiyao .you li .Xz{
+            font-size: 14px;
+            margin-left: 20px; 
+            margin-top: 5px;
+            color: rgb(234,220,210);     
+		}
+		.header .gaiyao .you li a:hover{
+			color: #bdbdbd;
+		}
+        
+        /*hot*/ 
+        .hot{
+            height: 1358px;
+        }       
+       .hot img{
+       	   height: 1358px;
+       	   width: 100%;
+       }
+        /*main*/
+        .main{
+            height: 958px;
+            width: 100%;
+            position: relative;
+            background: #1a1a1a;
+        }
+        .main .box2{
+            height: 958px;
+            width: 100%;
+            position: absolute;
+            /*top: 37px;*/
+        }
+      .main .box2 img{
+            height: 958px;
+            width: 100%;
+        }
+       #baise{
+            display: none;
+            
+        }
+        .box2 .Sx{
+            height: 50px;
+            width: 200px;
+            position: absolute;
+            top: 415px;
+            left: 675px;
+            z-index: 999;
+        }
+       .box2 .Sx h2{
+            height: 20px;
+            width: 92px; 
+            float: left;
+            margin-bottom: 20px;
+            margin-left: 25px;
+            font-size: 12px;
+            color: rgba(255,255,255,0);
+            cursor: pointer;
+        }
+       .box2 .Sx h4{
+            height: 20px;
+            width: 40px;
+            float: right;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            font-size: 12px;
+            color: rgba(255,255,255,0);
+            cursor: pointer;
+        }
+        /*.main{
+        	height: 958px;
+            width: 100%;
+            position: relative;
+        }
+
+        .main img{
+        	height: 100%;
+        	width: 100%;
+        }
+        .main .Sx{
+        	height: 200px;
+        	width: 200px;
+            position: absolute;
+            top: 414px;
+            left: 672px;
+            float: left;
+        }
+        .main .Sx h2{
+            height: 20px;
+            width: 92px;
+        	float: left;
+            background: red; 
+        	margin-bottom: 20px;
+        	margin-left: 25px;
+        	font-size: 12px;
+        	color: rgba(255,255,255,0.8);
+            cursor: pointer;
+        }
+        .main .Sx h4{
+            height: 20px;
+            width: 40px;
+            background: blue; 
+        	float: right;
+        	margin-bottom: 20px;
+        	margin-right: 20px;
+        	font-size: 12px;
+        	color: rgba(255,255,255,0.8);
+            cursor: pointer;
+        }
+        .main .Sx p{
+        	height: 30px;
+        	width: 100px;
+        	position: relative;
+        }
+        .main .Sx p a{
+        	height: 50px;
+        	width: 150px;
+        }
+        .main .Sx a,span{
+            text-decoration: none;
+            font-size: 12px;
+            color: rgb(220,130,100);     
+        }*/
+        /*footer*/
+        .footer{
+            height: 958px;
+        	width: 100%;
+        }
+        .footer img{
+        	height: 100%;
+        	width: 100%;
+        }
+      
+        /*end*/
+        .end{
+           height: 500px;
+           width: 100%;
+        }
+        .end .Sx{
+        	height: 1px;
+        	width: 100%;
+        	background: rgb(230,230,230);
+        	margin-top: 0px;
+        }
+        .end .zuo{
+        	height: 350px;
+        	width: 70%;
+        	float: left;
+        }
+        .end .zuo dl{
+        	height: 200px;
+        	float: left;
+        	margin-top: 100px;
+        	margin-left: 100px;
+        }
+        .end .zuo dl h5{
+        	margin-bottom: 10px;
+        	font-size: 14px;
+        	color: rgb(100,100,100);
+        }
+        .end .zuo dl dd a{
+        	display: inline-block;
+        	text-decoration: none;
+        	margin-top: 10px;
+        	font-size: 15px;
+        	color: rgb(150,163,187);
+        }
+        .end .you{
+        	height: 350px;
+        	width: 30%;
+        	float: right;
+        }
+        .end .you .kefu{
+        	height: 200px;
+        	width: 300px;
+        	margin-top: 100px;
+        	margin-left: 20px;
+        }
+        .end .you .kefu h3{
+        	margin-left: 50px;
+        	font-size: 30px;
+        	margin-bottom: 10px;
+        	color: rgb(100,100,100);
+        }
+        .end .you .kefu p{
+        	margin-bottom: 10px;
+        	font-size: 14px;
+        	color: rgb(195,195,195);
+        	margin-left: 25px;
+        }
+        .end .you .kefu a{
+        	display: inline-block;
+        	text-decoration: none;
+        	height: 32px;
+        	width: 102px;
+        	line-height: 32px;
+        	border: 1px solid #dcdcdc;
+        	border-radius: 5px;
+        	margin-left: 160px;
+        }
+        .end .you .kefu a:hover{
+        	color: rgba(80,121,217,0.6);
+        }
+        .end .you .kefu h6{
+        	font-size: 14px;
+        	margin-left: 25px;
+        	color: rgb(80,121,217);
+        }
+        .end .dibu .shang{
+        	height: 30px;
+        	width: 100%;
+        	display: inline-block;
+        	list-style: none;
+        	margin-left: 70px;
+        	text-decoration: none;
+        }
+        .end .dibu .shang span{
+        	display: inline-block;
+        	height: 14px;
+        	width: 1px;
+        	background: rgb(230,230,230);
+        	margin-right: 10px;
+        }
+        .end .dibu .shang li{
+        	float: left;
+        	margin-left: 10px;
+        	font-size: 14px;
+        }
+        .end .dibu .shang a{
+        	display: inline-block;
+        	text-decoration: none;
+        	color: #5079d9;	
+        }
+        .end .dibu .shang a:hover{
+        	color: #45474b;
+        }
+        .end .dibu p{
+        	display: inline-block;
+        	margin-left: 100px;
+        	font-size: 14px;
+            color: #dcdcdc;
+        }
+        .end .dx{
+        	height: 1px;
+        	width: 82%;
+        	background: rgb(230,230,230);
+        	margin-top:0px;
+        	margin-left: 6%;
+        	position: relative;
+        	top: -100px;
+        }
+        .end .zhong{
+        	height: 60px;
+        	width: 100px;
+        	float: right;
+        	margin-top: -100px;
+        	margin-right: 180px;
+        }
+        .end .zhong img{
+        	margin-top: 20px;
+        	margin-left: 20px;
+        }
+        .end .zhong h6{
+           float: right;
+           margin-top: 15px;
+           margin-right: 30px;
+           font-size: 14px;
+           color: #45474b;
+        }
+        /*end End*/
+        /*GunD begin*/
+        #gundong{
+            height: 80px;
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            background: #1a1a1a;
+           /* background: white;*/
+            display: none;
+        }
+        #gundong ul{
+             list-style: none;
+         }
+         #gundong ul a{
+            list-style: none;
+            text-decoration: none;
+            color: rgba(255,255,255,0.3);
+            /*color: rgba(0,0,0,0.3);*/
+         }
+        .box1{
+            color: rgba(0,0,0,0.3);
+        }
+         #gundong .zuo{
+            display: inline-block;
+            height: 80px;
+            width: 600px;
+            margin-left: 125px;
+            line-height: 80px;
+            text-align: center;
+         }
+         #gundong .zuo li{
+            float: left;
+            font-size: 14px;
+            margin-left: 30px;
+         }
+          #gundong .zuo li h1{
+            font-size: 20px;
+            margin-left: 0px;
+            margin-right: 50px;
+            color: #9d9d9d;
+          }
+        #gundong .zuo li .Gl{
+            color: #bdbdbd;
+        }
+        #gundong .zuo li a:hover{
+            color: #bdbdbd;
+        }
+        #gundong .you{
+            display: inline-block;
+            height: 80px;
+            width: 500px;
+            margin-left: 150px; 
+        }
+         #gundong .you li{
+            height: 80px;
+            float: right;
+            line-height: 80px;
+            text-align: center;
+            font-size: 14px;
+            margin-right: 30px; 
+        }
+         #gundong .you .Kz{
+            width: 97px;
+            height: 39px;
+            background: rgb(37,75,160);
+            text-align: center;
+            border-radius: 10%;
+            position: relative;
+            top: 20px;
+        }
+         #gundong .you li .Xz{
+            font-size: 14px;
+            color: rgb(234,220,210);
+            position: absolute;
+            top: -21px;
+            right: 18px;
+        }
+        #gundong .you li a:hover{
+            color: #bdbdbd;
+        }
+
+        /*GunD End*/
+
+       

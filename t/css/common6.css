@@ -1,0 +1,68 @@
+/*
+* @Author: TomChen
+* @Date:   2018-04-08 10:56:44
+* @Last Modified by:   TomChen
+* @Last Modified time: 2018-04-08 15:44:10
+*/
+body{
+	min-width: 1220px;
+}
+.container{
+	width: 1220px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
+}
+li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+.load{
+	width: 5px;
+	height: 30px;
+	background: red;
+	position: relative;
+	margin: 0 auto;
+	animation:sports 0.3s linear 0.2s infinite alternate;
+}
+.load:after{
+	content: '';
+	width: 5px;
+	height: 30px;
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	animation:sports 0.3s linear 0.4s infinite alternate;
+}
+.load:before{
+	content: '';
+	width: 5px;
+	height: 30px;
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	animation:sports 0.3s linear infinite alternate;
+}
+@keyframes sports{
+	from{
+		opacity: 0.2;
+		transform: scaleY(0.1); 
+	}to{
+		opacity: 1;
+		transform: scaleY(1);
+	}
+}

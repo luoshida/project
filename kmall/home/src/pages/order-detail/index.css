@@ -1,0 +1,74 @@
+.order-detail{
+	border:1px dashed blue;
+}
+.content .list-header{
+	font-family: "楷体";
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.order-detail{
+	font-family: "汉仪雅酷黑";
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.order-detail .header{
+	font-size: 16px;
+	padding-top: 20px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.order .order-message{
+	padding: 20px 50px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.order .order-message p{
+	height: 30px;
+	line-height: 30px;
+}
+.order .order-message .payment{
+	color: red;
+	font-size: 18px;
+}
+.order .order-payment a{
+	color: #fff;
+}
+.order .cancelled-btn{
+	background-color: red;
+}
+.product{
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.product .product-content{
+	padding: 20px 50px;
+}
+.product-content li{
+	width: 20%
+}
+.product-content .order-product-header{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.product-content .order-product{
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px dashed rgba(0,0,255,0.3);
+}
+.product-content .order-product .name{
+	height: 60px;
+	line-height: 30px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.product-content img{
+	width: 60px;
+	height: 80px;
+}
+.order-address .address-content{
+	padding: 20px 50px;
+}
+.address-content div{
+	height: 30px;
+	line-height: 30px;
+}
+

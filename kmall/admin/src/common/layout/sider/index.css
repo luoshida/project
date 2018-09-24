@@ -1,0 +1,11 @@
+.sider .ant-menu-item-selected{
+	background-color: transparent !important;
+	color: transparent !important;
+}
+.sider .ant-menu-item:after{
+	border: none !important;
+}
+.sider .ant-menu-item a.active{
+	color: #1890ff;
+	background-color: #eee;
+}

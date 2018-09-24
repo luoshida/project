@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%= htmlWebpackPlugin.options.title %> -KMALL电商平台</title>
+</head>
+<body>
+	<%= require('html-loader!./common/logo.html') %>
+	<div class="user-login">
+		<div class="head">
+			<span class="head-login">账号注册</span>
+			<div class="err">
+				<i class="fa fa-minus-square"></i>
+				<span>xxx</span>
+			</div>
+		</div>
+		<div class="form-item">
+			<i class="fa fa-user-o"></i>
+			<input type="text" name='username'>
+		</div>
+		<div class="form-item">
+			<i class="fa fa-unlock-alt"></i>
+			<input type="password" name='password'>
+		</div>
+		<div class="form-item">
+			<i class="fa fa-unlock-alt"></i>
+			<input type="password" name='rePassword'>
+		</div>
+		<div class="form-item">
+			<i class="fa fa-phone"></i>
+			<input type="text" name='phone'>
+		</div>
+		<div class="form-item">
+			<i class="fa fa-envelope-o"></i>
+			<input type="text" name='email'>
+		</div>
+		<div class="user-load">
+			<button class="user-load-btn" id="user-register-btn">注册</button>
+		</div>
+		<div class="user-regist">
+			<a href="/user-login.html" class="user-regist-btn">已有账号，立即登录</a>
+		</div>
+	</div>
+	<%= require('html-loader!./common/foot.html') %>
+</body>
+</html>

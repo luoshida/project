@@ -1,0 +1,78 @@
+.focus{
+	padding-top: 20px;
+}
+.focus .container{
+	overflow: hidden;
+	margin-bottom: 20px;
+} 
+.focus .keyword{
+	background-color: #999;
+	height:340px;
+	width: 200px;
+	padding: 20px 0;
+}
+.focus .keyword .keyword-item{
+	float: none;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;	
+}
+.focus .keyword .keyword-item:hover{
+	background-color: #555;
+}
+.focus .keyword .keyword-item .link{
+	color: #fff;
+	font-size: 14px;
+	margin-right: 5px;
+}
+.carousel{
+	width: 1000px;
+	height: 340px;
+}
+.carousel li {
+	width: 1000px;
+	height: 340px;
+}
+.carousel li img{
+	width: 100%;
+	height: 100%
+}
+.carousel .arrow{
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	top: 130px;
+	background-color: rgba(0,0,0,0.3);
+}
+.carousel .arrow.prev{
+	left: 0px;
+}
+.carousel .arrow.next{
+	right: 0px;
+}
+
+.floor .floor-box .floor-item{
+	width: 230px;
+	height: 300px;
+	background-color: #fff;
+	text-align: center;
+	margin-right: 12px;
+}
+.floor .floor-box .floor-item:nth-child(5){
+	margin-right: 0;
+}
+.floor .floor-box h2{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #aaa;
+}
+.floor .floor-box .floor-item p{
+	font-size: 18px;
+	margin-top:20px;
+}

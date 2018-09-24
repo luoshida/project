@@ -1,0 +1,13 @@
+
+.header .logo{
+	float: left;
+	color: white;
+	font-size: 27px;
+}
+.header .userData{
+	color: white;
+	float: right;
+}
+.header .userData a{
+	color: blue;
+}

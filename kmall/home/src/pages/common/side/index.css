@@ -1,0 +1,28 @@
+
+.user-center{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.user-center .content{
+	width: 1030px;
+	min-height: 700px;
+	background-color: #fff;
+	padding:30px 30px;
+}
+.side{
+	width: 150px;
+	min-height: 700px;
+	margin-right: 20px;
+	background-color: #fff;
+	padding:20px 20px;
+}
+
+.side li.side-item{
+	float: none;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.side li.active a{
+	color: red;
+}

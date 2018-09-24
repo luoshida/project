@@ -1,0 +1,76 @@
+.detail{
+	padding-top: 20px;
+	background-color: #eee;
+}
+.detail-box{
+	width: 100%;
+}
+.detail-img .img-main img{
+	width: 300px;
+	height: 400px;
+}
+.detail-img .img-list img{
+	width: 60px;
+	height: 80px;
+	margin-right: 5px;
+}
+.detail-img .img-list-item.active img{
+	border:1px solid red;
+}
+.detail-content{
+	width: 850px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 100px;
+}
+.detail-content p{
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+.detail-content .name{
+	font: 700 16px Arial,"microsoft yahei";
+    color: #666;
+    margin-bottom: 10px;
+}
+.detail-content .intro{
+	font-size: 12px;
+	color: #e4393c;
+}
+.detail-content .num{
+	position: relative;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.detail-content .num input{
+	width: 50px;
+	height: 30px;
+}
+.detail-content .count-btn{
+	display: inline-block;
+	cursor: pointer;
+	user-select: none;
+}
+
+.detail-content .detail-btn{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;	
+}
+.product-detail{
+	background-color: #fff;
+}
+.product-detail .product-detail-title{
+	background-color: red;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	color: white;
+}
+.product-detail .product-detail-content img{
+	width: 80px;
+	height: 100px;
+}
+.product-detail .product-detail-content li{
+	float: none;
+}

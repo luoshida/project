@@ -1,0 +1,11 @@
+.result{
+	background-color: #bbb;
+	min-height: 300px;
+	padding-top: 50px;
+	text-align: center;
+}
+.result .result-box p{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
