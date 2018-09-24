@@ -1,9 +1,4 @@
-/*
-* @Author: TomChen
-* @Date:   2018-06-08 20:17:35
-* @Last Modified by:   TomChen
-* @Last Modified time: 2018-07-10 15:01:34
-*/
+
 ;(function($){
 	/*公共函数开始*/
 	function loadHtmlOnce($elem,callBack){
