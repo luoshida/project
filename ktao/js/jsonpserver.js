@@ -1,9 +1,4 @@
-/*
-* @Author: TomChen
-* @Date:   2018-05-24 18:08:59
-* @Last Modified by:   TomChen
-* @Last Modified time: 2018-06-13 19:51:43
-*/
+
 var http = require('http');
 var fs = require('fs');
 var url = require('url');

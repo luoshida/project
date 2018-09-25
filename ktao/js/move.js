@@ -1,9 +1,4 @@
-/*
-* @Author: TomChen
-* @Date:   2018-06-13 18:30:03
-* @Last Modified by:   TomChen
-* @Last Modified time: 2018-07-07 10:36:23
-*/
+
 ;(function($){
 	function init($elem){
 		this.$elem = $elem;

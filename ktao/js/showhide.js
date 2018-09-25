@@ -1,9 +1,4 @@
-/*
-* @Author: TomChen
-* @Date:   2018-06-11 20:07:55
-* @Last Modified by:   TomChen
-* @Last Modified time: 2018-07-09 09:08:41
-*/
+
 ;(function($) {
 	//共通的初始化方法
 	function init($elem,hiddenCallBack){

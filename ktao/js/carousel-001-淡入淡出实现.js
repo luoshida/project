@@ -1,9 +1,4 @@
-/*
-* @Author: TomChen
-* @Date:   2018-07-05 10:36:38
-* @Last Modified by:   TomChen
-* @Last Modified time: 2018-07-05 14:38:57
-*/
+
 ;(function($){
 
 	function Carousel($elem,options){
