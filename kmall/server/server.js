@@ -18,7 +18,7 @@ db.once('open',()=>{
 
 const app = express();
 app.use(function (req, res, next) {
-  res.append('Access-Control-Allow-Origin', 'http://localhost:3001');
+  res.append('Access-Control-Allow-Origin', '*');
   res.append('Access-Control-Allow-Credentials', true);
   res.append('Access-Control-Allow-Headers', 'Content-Type,Content-Length,X-File-Name,Authorization,Accept,X-Requested-With,yourHeaderFeild');
   res.append('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
